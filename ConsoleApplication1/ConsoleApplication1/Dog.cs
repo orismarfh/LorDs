@@ -11,6 +11,7 @@ namespace ConsoleApplication1
         void Operate()
         {
             var dog = new Poodle();
+//
             dog.HasSpoken += Dog_HasSpoken;
         }
 
